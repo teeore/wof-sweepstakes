@@ -1,0 +1,911 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Bold.eot');
+    src: local('☺'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Bold.woff') format('woff'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Bold.ttf') format('truetype'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Medium.eot');
+    src: local('☺'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Medium.woff') format('woff'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Medium.ttf') format('truetype'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Book.eot');
+    src: local('☺'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Book.woff') format('woff'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Book.ttf') format('truetype'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Book.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Light.eot');
+    src: local('☺'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Light.woff') format('woff'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Light.ttf') format('truetype'), url('//secure.sonypictures.com/tv/shows/wheel/minisites/wheelv8/fonts/Gotham-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	   	-ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline:0;padding:0;margin:0;border:0;
+}
+
+li {list-style:none;}
+
+body {
+	font-family: 'Gotham-Book';
+	font-size: 19px;
+	background-color:#24880a;
+	width: 100%;
+}
+#maincontainer {
+	width: 1000px;
+	box-shadow: 6px 0 20px -4px #196406 , -6px 0 20px -4px #196406; 
+	-moz-box-shadow: 6px 0 20px -4px #196406, -6px 0 20px -4px #196406; 
+	-webkit-box-shadow: 6px 0 20px -4px #196406, -6px 0 20px -4px #196406;
+	margin:0 auto;
+}
+
+#container {
+	/*width: 1000px;*/
+	}
+
+#socialbar {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 8px 0;
+    width: 100%;
+    background-color: #269c07;
+}
+
+	#socialbar ul {
+		background: #269c07 url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/social.png) no-repeat 55px;
+		width: 385px;
+		height: 31px;
+		float: right;
+	}
+
+		#socialbar li {
+			display: table-cell;
+		    vertical-align: middle;
+		    height: 32px;
+		    width: 35px;
+		}
+				#socialbar a {
+				display: block;
+				width: 100%;
+				height: 100%;
+				color:#fff;
+			}
+			
+			#socialbar .share {
+				color: #fff;
+				width: 55px;
+				text-transform: uppercase;
+				font-size: 10pt;
+			}
+
+			#socialbar .hash {
+				display: table-cell;
+				width: 115px;
+				text-align: right;
+				vertical-align: middle;
+				color: #fff;
+			}
+
+				#socialbar .hash a {
+					display: inline;
+					text-decoration: none;
+					font-size: 13pt;
+				}
+
+#sitecontent {
+	position:relative;
+}
+
+#maingraphic {
+	background:#24880a url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/gfx-main-top.jpg) no-repeat center center;
+	height:604px;
+}
+
+a#wheel {
+    display: block;
+    height: 145px;
+    left: 50%;
+    position: absolute;
+    top: 73px;
+    width: 457px;
+    margin-left: -343px;
+}
+
+a#v8logo {
+    display: block;
+    height: 175px;
+    left: 50%;
+    position: absolute;
+    top: 27px;
+    width: 170px;
+    margin-left: 146px;
+}
+
+#videocontainer {
+	position:absolute;
+	width:100%;
+	top:600px;
+	background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/active/images/gfx-video-callout2.png) no-repeat center center;
+	height:341px;
+	left: 0;
+}
+
+#playvideo {
+	display:block;
+	width:549px;
+	height:310px;
+	position:absolute;
+	top:13px;
+	left:50%;
+	margin-left:-469px;
+}
+
+#instructions {
+	background-color:#fff;
+	padding:205px 0px 30px;
+}
+
+	#instructions h2 {
+		display:block;
+		width:940px;
+		margin:0 auto 46px;
+		text-align: center;
+		color:#299d0a;
+		font-size: 48px;
+		font-family: 'Gotham-Bold';
+		text-transform: uppercase;
+	}
+
+		#instructions h2 span {
+			font-family: 'Gotham-Light';
+		}
+
+		#instructions ul {
+			display:block;
+			width:940px;
+			margin:0 auto;
+		}
+
+			#instructions ul li {
+				position:relative;
+				width:444px;
+				float:left;
+				padding:0px 0px 22px 55px;
+				text-transform: uppercase;
+			}
+
+			#instructions ul li a {
+				color:#000;
+			}
+
+			#instructions ul li:nth-child(odd) {
+				margin:0px 15px;
+			}
+
+				#instructions ul li span {
+					font-family: 'Gotham-Bold';
+				}
+
+				#instructions ul li span.bullet {
+					position:absolute;
+					display:block;
+					background-image:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/gfx-number-bullets.png);
+					width:45px;
+					height:45px;
+					top:0;
+					left:0px;
+				}
+
+				li#step1 span.bullet {
+					background-position: 0px 0px;
+				}
+
+				li#step2 span.bullet {
+					background-position: -45px 0px;
+				}
+
+				li#step3 span.bullet {
+					background-position: -90px 0px;
+				}
+
+				li#step4 span.bullet {
+					background-position: -135px 0px;
+				}
+
+			#instructions p {
+				clear:both;
+				display:block;
+				width:940px;
+				margin:0 auto;
+				text-align: center;
+				color:#4a0b0a;
+				font-size: 24px;
+				padding-top: 37px;
+			}
+
+/* entry form */
+
+#entryform {
+	color:#fff;
+	font-size: 13px;
+}
+
+	#entryform h2 {
+		display:block;
+		width:940px;
+		margin:30px auto;
+		text-align: center;
+		font-size: 48px;
+		font-family: 'Gotham-Bold';
+		text-transform: uppercase;
+	}
+
+		#entryform h2 span {
+			font-family: 'Gotham-Light';
+		}
+
+	form#entry {
+		width:780px;
+		margin:0 auto;
+	}
+
+	form#entry p {
+		margin:20px 0;
+	}
+
+	form#entry input[type="text"], form#entry select {
+		height:35px;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+	}
+
+	form#entry select {
+		display:inline-block;
+		width: 127px;
+		padding:8px;
+		overflow: hidden;
+		background: #fff url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/select-arrow.png) no-repeat 70px 0;
+	}
+
+	form#entry label {
+		position:relative;
+		display:inline-block;
+		margin:0 8px 12px 0;
+	}
+
+	form#entry input {
+		display:block;
+		margin-top:3px;
+	}
+
+	#entryform #entry input[type="radio"] {
+	    display:none;
+	}
+
+	#entryform #entry input[type="radio"] + label span {
+	    display:inline-block;
+	    width:20px;
+	    height:20px;
+	    margin:-1px 4px 0 0;
+	    vertical-align:middle;
+	    background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/check_radio_sheet.png) left top no-repeat;
+	    cursor:pointer;
+	}
+
+	#entryform #entry input[type="radio"]:checked + label span {
+	    background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/check_radio_sheet.png) -20px top no-repeat;
+	}
+
+	#entryform #entry input[type="checkbox"] {
+	    display:none;
+	}
+
+	#entryform #entry input[type="checkbox"] + label span {
+	    float:left;
+	    width:20px;
+	    height:20px;
+	    margin:-1px 10px 36px 0;
+	    vertical-align:middle;
+	    background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/check_radio_sheet.png) no-repeat left top;
+	    cursor:pointer;
+	}
+
+	#entryform #entry input[type="checkbox"]:checked + label span {
+	    background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/check_radio_sheet.png) no-repeat -20px top;
+	}
+
+	#entryform #entry label.adjustspacing {
+		margin:15px 0;
+	}
+
+	#entryform #entry label p {
+		display:inline-block;
+	}
+
+	.csz {
+		display:inline-block;
+		float:left;
+		height: 71px;
+    	/*overflow: hidden;*/
+    	margin-right:4px;
+	}
+
+	label.fixlabel {
+		margin-bottom: 4px !important;
+	}
+
+	.selectfix {
+		display:inline-block;
+		width: 100px;
+		overflow:hidden;
+		margin:3px 0 10px;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        border-radius: 5px;
+	}
+
+	.birthpaddingfix {
+		margin-right:8px;
+	}
+
+	#entryform #entry a {
+		color:#fff;
+	}
+
+	input#submit {
+		width:383px;
+		margin:30px auto;
+	}
+
+/* thank you */
+
+#thankyou {
+	background-color:#fff;
+	padding:250px 0px 60px;
+}
+
+	#thankyou h2 {
+		display:block;
+		width:940px;
+		margin:0 auto 50px;
+		text-align: center;
+		color:#299d0a;
+		font-size: 48px;
+		font-family: 'Gotham-Bold';
+		text-transform: uppercase;
+	}
+
+		#thankyou h2 span {
+			font-family: 'Gotham-Light';
+		}
+
+	#thankyou p {
+		width:800px;
+		margin:0 auto;
+		color:#000;
+		text-align: center;
+		font-size: 22px;
+	}
+
+		#thankyou p span {
+			font-family: 'Gotham-Bold';
+		}
+
+		#thankyou p a {
+			color:#000;
+		}
+
+	#thankyou ul {
+		display:block;
+		width:594px;
+		overflow:auto;
+		margin:99px auto 10px;
+		list-style-type: none;
+	}
+
+	#thankyou ul#newwidth {
+		width:325px;
+	}
+
+		#thankyou ul li {
+			float: left;
+		}
+
+		#thankyou ul li:first-child {
+			margin-right:40px;
+		}
+
+			#thankyou ul li a {
+				display:block;
+				height:0;
+				overflow: hidden;
+				padding-top: 70px;
+			}
+
+				#shareentry {
+					width:225px;
+					background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/share-entry.png) 0 0;
+				}
+
+					#shareentry:hover {
+						background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/share-entry.png) 0 -70px;
+					}
+
+				#invitefriends {
+					width:325px;
+					background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/invite-friends.png) 0 0;
+				}
+
+					#invitefriends:hover {
+						background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/invite-friends.png) 0 -70px;
+					}
+
+/* no service */
+
+#noservice {
+	background-color:#fff;
+	padding:336px 0px 178px;
+}
+
+	#noservice h2 {
+		display:block;
+		width:940px;
+		margin:0 auto 50px;
+		text-align: center;
+		color:#299d0a;
+		font-size: 48px;
+		font-family: 'Gotham-Bold';
+		text-transform: uppercase;
+	}
+
+		#noservice h2 span {
+			font-family: 'Gotham-Light';
+		}
+
+	#noservice p {
+		width:800px;
+		margin:0 auto;
+		color:#000;
+		text-align: center;
+		font-size: 22px;
+	}
+
+		#noservice p span {
+			font-family: 'Gotham-Bold';
+		}
+
+		#noservice p a {
+			color:#000;
+		}
+
+/* closed */
+
+#closed {
+	background-color:#fff;
+	padding:300px 0px 140px;
+}
+
+#closed h2 {
+		display:block;
+		width:940px;
+		margin:0 auto 40px;
+		text-align: center;
+		color:#299d0a;
+		font-size: 48px;
+		font-family: 'Gotham-Bold';
+		text-transform: uppercase;
+	}
+
+		#closed h2 span {
+			font-family: 'Gotham-Light';
+		}
+
+	#closed p {
+		width:800px;
+		margin:0 auto;
+		color:#000;
+		text-align: center;
+		font-size: 22px;
+	}
+
+
+/* photo section */
+
+#photosection {
+	min-height: 719px;
+	height: 159px;
+	margin: 0 auto;
+}
+
+	#photosection p{
+		color: #FFFFFF;
+	}
+
+		#calloutheader {
+		margin: 71px auto 0;
+		font-family: 'Gotham-Book';
+		font-size: 31px;
+		text-transform: uppercase;
+		text-align: left;
+		padding-left: 73px;
+	}
+
+		#calloutheader span {
+			font-style: italic;
+		}
+
+	.photosection_copy, .photosection_copy a {
+		width: 845px;
+		margin: 39px auto 20px;
+		font-family: 'Gotham-Book';
+		font-size: 17px;
+		text-align: center;
+		color: #ffffff;
+		}
+
+		.photosection_copy img {
+			vertical-align: middle;
+		}	
+
+		.bottom {
+		margin-top: 6px;
+	}
+
+/* image gallery */
+
+
+	.left.l-arrow:hover {
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/left-arrowbg.png) no-repeat;
+		height: 84px;
+		left: -13px;
+		top: 40%;
+	}
+	.right.r-arrow:hover {
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/right-arrowbg.png) no-repeat;
+		height: 84px;
+		right: -20px;
+		top: 41%;
+	}
+
+	.left {
+		width: 80px;
+		height: 64px;
+		position: absolute;
+		left:-23px;
+		top:42%;
+		cursor:pointer;
+		border-radius: 8px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/arrows-light.png) no-repeat 0 -192px;
+	}
+
+	.right {
+		width: 80px;
+		height: 64px;
+		position: absolute;
+		right:-23px;
+		top:42%;
+		cursor:pointer;
+		border-radius: 8px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/arrows-light.png) no-repeat 0 -64px;
+	}
+
+
+/* photo section */
+
+#photosection {
+	position:relative;
+}
+
+	#photosection .imagecontainer ul {
+		width: 13970px;
+	}
+
+.sectioncontent {
+	margin: 0 auto;
+    width: 1000px;
+}
+
+.sectioncontent h2 {
+	display:block;
+	width:940px;
+	margin:0 auto 30px;
+	text-align: left;
+	color:#fff;
+	font-size: 48px;
+	font-family: 'Gotham-Bold';
+	text-transform: uppercase;
+}
+.sectioncontent h2 span {
+	font-family: 'Gotham-Light';
+}
+
+
+/* image gallery */
+
+.gallerycontainer {
+	position: relative;
+	margin: 42px auto 30px;
+}
+
+	.imagecontainer {
+		overflow: hidden;
+		margin:0 auto;
+		/*width: 880px;*/
+		width: 87%;
+		position: relative;
+	}
+		.imagecontainer li {
+			position:relative;
+			float:left;
+			margin: 4px;
+			height: 427px;
+			z-index: 999;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+img.theImage {
+	position:relative;
+	z-index: -1;
+}
+
+.tooltip {
+	position:absolute;
+	bottom:3px;
+	left:0px;
+	width:248px;
+	display:none;
+	z-index: 1000;
+}
+
+	.tooltip .tttop {
+		height:26px;
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/tooltip/top.png);
+	}
+
+	.tooltip .ttcontent {
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/tooltip/center.png);
+		padding: 10px 40px;
+		font-family: 'Gotham-Book';
+		color:#fff;
+		font-size: 14px;
+	}
+
+	.tooltip .ttcontent h3 {
+		font-family: 'Gotham-Bold';
+		font-size: 14px;
+	}
+
+	.tooltip .ttbottom {
+		height:26px;
+		background:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/tooltip/bottom.png);
+	}
+
+	.tooltip-container a {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+	
+#visitvenetian {
+	display:block;
+	width:314px;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+
+#calltoaction {
+	background-color:#ffdea4;
+	padding:55px 0;
+	overflow: hidden;
+}
+
+#calltoaction ul {
+	display:block;
+	width:983px;
+	margin:0 auto;
+	list-style-type: none;
+	overflow:auto;
+	position: relative;
+	left: -9px;
+}
+
+#calltoaction ul li {
+	float:left;
+	width:327px;
+}
+
+#calltoaction ul li a {
+	display:block;
+	height:0;
+	overflow:hidden;
+	padding-top:303px;
+	background-image:url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/gfx-callouts.png);
+}
+
+a#tossup {
+	background-position: 0 -909px;
+}
+
+a#v8 {
+	background-position: 0 -303px;
+}
+
+a#wof {
+	background-position: 0 -607px;
+}
+
+/* Bottom promoo*/
+#promo {
+	background: url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/promo_bg.jpg) repeat-x top center;
+	padding: 26px 0 70px;
+	overflow: hidden;
+}
+
+	#promo p{
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 24px;
+	padding-bottom: 10px;
+	letter-spacing: 1px;
+	}
+
+	#promo ul {
+		width: 350px;
+		margin: 0 auto;
+		display: block;
+		list-style-type: none;
+		overflow: auto;
+		position: relative;
+	}
+
+		#promo ul li {
+			float: left;
+		}
+
+			#promo ul li.share_image {
+				width: 224px;
+				padding-top: 2px;
+			}
+
+				#promo ul li.share_image a {
+					background: url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/wwc_button.png) no-repeat top left;
+					background-position: 0 0;
+					width: 220px; 
+					height: 31px;
+					display: block;
+				}
+
+				#promo ul li.share_image a:hover {
+					background-position: 0 -32px;
+				}
+
+			#promo ul li.share_btns {
+				width: 29px;
+				margin: 3px 0 0 13px;
+			}
+
+				#promo ul li.share_btns a{
+					background-image: url(//flash.sonypictures.com/tv/shows/wheel/minisites/wheelv8/images/bottom_share.png);
+					height: 0;
+					overflow: hidden;
+					padding-top: 29px;
+					display: block;
+				}
+
+					a#fb_promo {
+						background-position: -2px -1px;
+					}
+
+					a#twitter_promo {
+						background-position: -45px -1px;
+					}
+
+					a#getglue_promo {
+						background-position: -90px -1px;
+					}
+
+			
+
+
+
+#legal {
+	width:728px;
+	margin:0 auto;
+	font-family: Arial;
+	font-size: 10px;
+	color:#cccccc;
+	padding:30px 0;
+}
+
+#legal img {
+	margin-bottom:20px;
+}
+
+#legal p a {
+	color:#cccccc;
+	font-weight: bold;
+}
+
+	
+/* footer */
+#footer {
+	padding:16px 0;
+}
+#footer * {
+-webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   	-ms-box-sizing: content-box;
+        box-sizing: content-box;
+}
+	#footer .sprite {
+		display: block;
+		height: 0;
+		overflow: hidden;
+	}
+	#copyrightcontainer {
+		overflow: hidden;
+		width: 650px;
+		margin: 0 auto;
+	}
+	#copyrightcontainer li {
+		float:left;
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+	}
+	#spt {
+		background: url(//flash.sonypictures.com/shared/tv/wheeloffortune/styles/images/spt_white_shorter_template.png) no-repeat left top;
+		padding-top: 55px;
+		width: 30px;
+	}
+
+	#copyright {
+		color: #c4b9b9;
+		margin: 30px 0 0 20px;
+	}
+
+	#treatment-footer-container {
+		min-width: 900px;
+		overflow: hidden;
+	}
+
+		#treatment-footer {
+			width: 100%;
+	}
+	
+@media only screen and (max-width: 1024px) and (min-width: 1024px) {
+	#maincontainer  { overflow-x: hidden; }
+}

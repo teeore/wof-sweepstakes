@@ -1,0 +1,29 @@
+.tabsection li .sparkles  {height: 280px !important;}
+.tablist > ul > li a {font-size: 11px !important;}
+#instructions ul li::first-child {
+	margin:0px 15px;
+}
+#instructions ul li::first-child + li + li {
+	margin:0px 15px;
+}
+
+#maincontainer {
+	 zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#196406, Strength=6, Direction=90),
+	 progid:DXImageTransform.Microsoft.Shadow(Color=#196406, Strength=6, Direction=270);
+	 background-color: #24880a;
+}
+
+#maingraphic {
+	width: 100%;
+	position: relative;
+	left: 6px;
+}
+
+.arrow.right:hover {
+	right: -25px;
+}
+
+.arrow.left:hover {
+	left: -11px;
+}
